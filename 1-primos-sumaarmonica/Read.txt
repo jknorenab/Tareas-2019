@@ -1,0 +1,7 @@
+Johan Katherine Noreña Bahamon
+C.C. 1032470252
+Cod 01134034
+
+Esta carpeta es el resultado de la primera tarea de Herramientas computacionales, hemos decidido crear un repositorio graaande con todas las tareas y trabajos   en casa que realicemos, ignorando el repositorio previo que hicimos con la introducción de git. En esta carpeta particular, resolveremos la pregunta de los primos entr 500 y 12400 y el de la suma armonica.
+
+Espero que sirva :)

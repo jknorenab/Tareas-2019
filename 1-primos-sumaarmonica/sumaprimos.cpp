@@ -8,33 +8,29 @@ int main(void){
 
   int sum;
   int z;
+  int contador;
 
   z = 0;
   sum = 0;
+  contador = 0;
+  
 
-  z = primo(9973);
-  std :: cout << z << std:: endl;
+  for (int i = 1000; i<= 1500; ++i){
+    z = primo(i);
+    if (z==0){
+      contador = contador;
+      sum = sum;
+    }
+    if (z==1){
+      sum +=i;
+    }
+  }
+  std :: cout << sum << std:: endl;
 
   return 0;
 }
-  
-  /*
-z = 0;
-suma = 0;
 
-for(int i= 50; i<=100; ++i){
-  z = primo(i);
-  if(z == 0){
-  suma = suma;
-  }
-  if(z==1){
-  suma +=i; 
-  }
-}
-cout<<suma<<endl;
-  */
-
- double primo(int x){
+double primo(int x){
  int resto;
  int d;
  int contador;

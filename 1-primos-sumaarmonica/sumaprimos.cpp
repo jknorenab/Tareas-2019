@@ -15,7 +15,7 @@ int main(void){
   contador = 0;
   
 
-  for (int i = 1000; i<= 1500; ++i){
+  for (int i = 500; i<= 12400; ++i){
     z = primo(i);
     if (z==0){
       contador = contador;
@@ -26,10 +26,8 @@ int main(void){
       contador +=1; 
     }
   }
-  std :: cout << "La suma de los números primos entre 500 y 12400 es" << sum << std:: endl;
-  std :: cout << "La cantidad de números primos entre 500 y 12400 es" <<  contador << std:: endl;
+  std :: cout << "La cantidad de números primos entre 500 y 12400 es: " <<contador << " y su suma corresponde al valor: " << sum << std:: endl;
   
-
   return 0;
 }
 

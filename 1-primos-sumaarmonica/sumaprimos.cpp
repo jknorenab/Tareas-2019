@@ -23,9 +23,12 @@ int main(void){
     }
     if (z==1){
       sum +=i;
+      contador +=1; 
     }
   }
-  std :: cout << sum << std:: endl;
+  std :: cout << "La suma de los números primos entre 500 y 12400 es" << sum << std:: endl;
+  std :: cout << "La cantidad de números primos entre 500 y 12400 es" <<  contador << std:: endl;
+  
 
   return 0;
 }

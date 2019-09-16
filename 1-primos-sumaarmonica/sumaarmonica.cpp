@@ -2,21 +2,29 @@
 #include <cstdio>
 #include <cmath>
 
+double armonico(double N);
+
 
 int main(void){
 
-  float N;
-  float sum;
+  double N;
+  double coso;
 
   N = 5;
-  sum = 0;  
+  coso = armonico(N);
 
-  for (float i = 1; i<=N; ++i){
-    sum += 1/i;
-  }
-  std :: cout << sum << std:: endl;
-
+  std :: cout << coso << std:: endl;  
 
   return 0;
   
 }
+
+double armonico(double N){
+  double sum;
+  sum = 0;
+  for (double i = 1; i<=N; ++i){
+    sum += 1/i;
+  }
+  return sum;
+}
+

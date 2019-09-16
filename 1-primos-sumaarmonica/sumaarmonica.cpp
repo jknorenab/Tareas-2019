@@ -4,19 +4,16 @@
 
 double armonico(double N);
 
-
 int main(void){
 
-  double N;
-  double coso;
+  double total;
+  total = 0;
 
-  N = 5;
-  coso = armonico(N);
-
-  std :: cout << coso << std:: endl;  
-
+  for (double j =1; j<=1000; ++j){
+    total = armonico(j);
+    std :: cout << j << "\t" << total << std:: endl;
+  }
   return 0;
-  
 }
 
 double armonico(double N){
